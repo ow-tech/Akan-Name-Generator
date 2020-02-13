@@ -1,4 +1,4 @@
-function output() {
+function myFunction() {
     var day = document.getElementById("day").value;
     var dd = parseInt(day);
     var month = document.getElementById("month").value;
