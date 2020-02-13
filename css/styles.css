@@ -1,0 +1,20 @@
+.carousel-item{
+    height:100vh;
+    min-height:30px;
+    background:no-repeat center scroll;
+}
+.carousel-caption{
+    bottom:270px
+}
+.carousel-caption h5{
+    font-size:45px;
+    text-transform:uppercase;
+    letter-spacing:20x;
+    margin-top:25px;
+}
+.carousel-caption p{
+    width:75%;
+    margin:auto;
+    font-size:10px;
+    line-height:1.9;
+}
