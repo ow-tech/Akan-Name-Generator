@@ -8,31 +8,45 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="ccs/styles.css">
 <title>AKAN NAMES</title>
 </head>
 <body>
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top mynav" class="navbar navbar-light" style="background-color: #e3f2fd;">
+		<div class="container">
+			<a class="navbar-brand" href="#">AkaNnAmEs</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text justify-content-center" id="navbarSupportedContent">
+				<ul class="navbar-nav ">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="generate.html">Generate</a>
+          </li>
+        </ul>
+			</div>
+		</div>
+	</nav>
 	<div class="container" style="background-color: black; background-size: cover;">
-                  
-                  <p> The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born.<br> 
-                       Many of the leaders of slave rebellions had "day names" including Cuffy or Kofi, Cudjoe or Kojo, and Quamina or Kwame/Kwamina.</p><br>
-              <h2>FILL IN THE FORM TO GET YOUR AKAN NAME</h2><br>
-              <label>DAY</label><br>
-              <input type="number" id="day" placeholder="DD" class="form-control" required ><br>
-              <label>MONTH</label><br>
-              <input type="number" id="month" placeholder="MM" class="form-control" required ><br>
-              <label>YEAR</label><br>
-              <input type="number" id="year" placeholder="YYYY" class="form-control" required ><br>
-              <label>GENDER</label><br>
-              <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
-               <input type="radio" name="gender" value="female" > Female<br>
-              <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="output()">
+    <label>DAY</label><br>
+    <input type="number" id="day" placeholder="DD" class="form-control" required ><br>
+    <label>MONTH</label><br>
+    <input type="number" id="month" placeholder="MM" class="form-control" required ><br>
+    <label>YEAR</label><br>
+    <input type="number" id="year" placeholder="YYYY" class="form-control" required ><br>
+    <label>GENDER</label><br>
+    <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female" > Female<br>
+    <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="outPt()">
             
     </div>
             <p id="outcome"></p>
-            <h3>&copy;2020|Made by |privacy|cookie.|Terms|Privacy|Security|Status|Help|Contact |Pricing</h3>
+            <h3 class="final">&copy;2020|Made by Alex M. Barasa|privacy|</h3>
     
             
-        <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
