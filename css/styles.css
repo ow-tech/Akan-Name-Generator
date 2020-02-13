@@ -8,12 +8,22 @@
 .navbar-light .navbar-nav .na-link{
     color:#fff;
 }
-mynav text{
+.container{
+    background-color: yellow;
+    background-size:cover ;
+}
+
+
+
+.mynav text{
     font-size: larger;
     font-weight: 200;
 }
 .mynav a:hover{
     border-bottom: 2px solid #181174;
+}
+.navbar-nav .nav-link{
+    margin-left: 20px;
 }
 .carousel-item{
     height:100vh;
