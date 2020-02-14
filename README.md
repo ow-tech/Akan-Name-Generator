@@ -5,9 +5,6 @@ Alex Mulwa Barasa
 ## Description
 {As many do not know exactly which day they were born, this web based applicatio gets to calculate that for them. However, this not being the end goal of the application, since from its name, "Akan Name"; it gets to assign the usser a Ghananian name basing on the day they were born. The tribe of Akan has this tradition of assigning names to new borns basing on the day they were born.}
 
-## Screenshot                                                        
-<img src="image/Screenshot from 2020-02-14 12-12-07.png" raw="true" width="1000">
-
 ## Technologies Used
 {In the creation of Akan-Name-Generator,I have utilized html,css, Bootsrap and JavaScript; howover, there is an opening for future advancement to it as I acquire more knowledge on other language to use.}
 
