@@ -27,7 +27,7 @@ Alex Mulwa Barasa
 The Aplication must be refreshed frequently, after a trial of trying to obtain Akan Name.
 Otherwise it will not be functional.
 ## Deployment
-You can vist the site directly by clicking [here]()
+You can vist the site directly by clicking [here]("https://ow-tech.github.io/Akan-Name-Generator/")
 ## Support and contact details
 One can easily reach me via email.
 Alexbarasa0723@gmail.com}
